@@ -1,3 +1,6 @@
+@import url("https://unpkg.com/leaflet/dist/leaflet.css");
+
+
 .button-container {
   display: flex;
   flex-direction: column;
@@ -123,6 +126,8 @@ nav {
 .global-form{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--white);
     border-radius: 14% 0% 0% 0% / 9% 0% 0% 0% ;
     padding: 2rem;
@@ -376,6 +381,8 @@ article .form-group{
     transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
     pointer-events: none;
+    width: 100%;
+    max-width: 250px;
 }
 
 #content-direction.show {
