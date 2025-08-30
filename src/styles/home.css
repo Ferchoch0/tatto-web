@@ -1,0 +1,242 @@
+/* *//* *//* *//* *//* *//*  USER BAR *//* *//* *//* *//* *//* *//* */
+.home-user-bar {
+    width: 100%;
+    background-color: var(--background-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.home-user-bar h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--dark);
+    font-weight: 600;
+}
+
+.home-user-bar .home-user-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.home-user-bar p{
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--dark);
+    font-weight: 600;
+}
+
+.home-user-last-visit {
+    width: 100%;
+    background-color: var(--dark);
+    color: var(--white);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.home-user-last-visit-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.home-user-last-visit-info p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: var(--soft-gray);
+}
+
+.home-user-last-visit-info span {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+
+.home-user-last-visit button {
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* *//* *//* *//* *//* *//*  SERVICES CARD *//* *//* *//* *//* *//* *//* */
+
+
+.services-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-dark);
+    color: var(--white);
+}
+
+.services-form h2 {
+    margin: 2px 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.home-service-card {
+  border-radius: 16px;
+  padding: 1.2rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.services-carousel {
+  padding: 1rem 1rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.services-carousel .swiper {
+  overflow: visible;
+}
+
+.service-slide {
+  width: auto !important;
+}
+
+.home-service-card {
+  width: 260px;
+  background: transparent;
+  border: 1px solid var(--background-light);
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform .2s ease;
+}
+
+.home-service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: var(--background-light);
+  color: var(--dark);
+}
+
+.home-service-card:hover .service-card-icon {
+  color: var(--background-dark);
+}
+
+
+.service-card-icon {
+  margin-bottom: 0.8rem;
+  color: var(--background-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* *//* *//* *//* *//* *//*  BARBER LIST *//* *//* *//* *//* *//* *//* */
+
+.home-avalible-barbers{
+    color: var(--white);
+}
+
+/* Sección principal */
+.home-avalible-appointments {
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+/* Título + icono */
+.appointments-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.appointments-header h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.appointments-icon {
+  font-size: 1.6rem;
+  color: var(--background-light); /* tu color principal */
+}
+
+/* Lista */
+.appointments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Card individual */
+.appointment-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.appointment-card:not(:last-child) {
+  border-bottom: 1px solid var(--background-dark);
+  border-radius: 0;
+}
+
+.appointment-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Info barbería */
+.appointment-barber-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--white);
+}
+
+.appointment-barber-info p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.appointment-barber-info span {
+  font-size: 0.85rem;
+  color: var(--background-light);
+  font-weight: 500;
+}
+
+/* Botón */
+.appointment-card button {
+  background: transparent;
+  color: white;
+  padding: 0.3rem 1rem !important;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid white;
+    border-radius: 0 !important;
+  transition: background 0.2s ease;
+}
+
+.appointment-card button:hover {
+  background: #6937e6;
+}
+
+
