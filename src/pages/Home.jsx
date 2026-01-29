@@ -20,10 +20,10 @@ export default function Home({ onNavigate }) {
                 {/* Animated Background Pattern */}
                 <div className="absolute inset-0 opacity-5">
                     <div className="absolute top-10 left-5 md:top-20 md:left-20 text-4xl md:text-8xl rotate-12 animate-pulse">
-                        <img src="/tatto-bg-1.png" alt="..." className="w-16 h-16 md:w-100 md:h-100 object-cover" />
+                        <img src="/tatto-bg-1.png" alt="..." className="w-40 h-40 md:w-100 md:h-100 object-cover" />
                     </div>
-                    <div className="absolute bottom-20 right-5 md:bottom-40 md:right-32 text-5xl md:text-9xl -rotate-12 animate-pulse delay-300">
-                        <img src="/tatto-bg-2.png" alt="..." className="w-20 h-20 md:w-130 md:h-130 object-cover" />
+                    <div className="absolute bottom-0 right-0 md:bottom-40 md:right-32 text-5xl md:text-9xl -rotate-12 animate-pulse delay-300">
+                        <img src="/tatto-bg-2.png" alt="..." className="w-40 h-40 md:w-130 md:h-130 object-cover" />
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@ export default function Home({ onNavigate }) {
                     <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold mb-4 md:mb-6 tracking-wider text-zinc-100 drop-shadow-2xl"
                         style={{ fontFamily: "'UnifrakturMaguntia', cursive" }}>
                         <span className="block text-2xl sm:text-4xl md:text-5xl lg:text-6xl mb-2 text-zinc-400 tracking-widest">Tattoo Studio</span>
-                        <img src="/logo-b-nof.png" alt="" className='w-32 h-32 sm:w-40 sm:h-40 md:w-140 md:h-140 mx-auto' />
+                        <img src="/logo-b-nof.png" alt="" className=' w-45 h-45 md:w-140 md:h-140 mx-auto' />
                     </h1>
 
                     <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-zinc-400 mb-8 md:mb-12 tracking-wide max-w-2xl mx-auto px-4">
@@ -42,7 +42,7 @@ export default function Home({ onNavigate }) {
 
                     <button
                         onClick={onNavigate}
-                        className="group relative mt-8 md:mt-16 px-8 sm:px-10 md:px-12 py-4 md:py-5 text-base md:text-lg font-semibold tracking-wider border-2 border-zinc-100 text-zinc-100 overflow-hidden transition-all duration-500 hover:scale-105 cursor-pointer"
+                        className="group relative mt-13 md:mt-16 px-8 sm:px-10 md:px-12 py-4 md:py-5 text-base md:text-lg font-semibold tracking-wider border-2 border-zinc-100 text-zinc-100 overflow-hidden transition-all duration-500 hover:scale-105 cursor-pointer"
                     >
                         <span className="relative z-10 group-hover:text-zinc-950 transition-colors duration-500">
                             RESERVAR CITA
@@ -51,7 +51,7 @@ export default function Home({ onNavigate }) {
                     </button>
 
                     {/* Scroll Indicator */}
-                    <div className="absolute bottom-10 md:bottom-20 left-1/2 transform -translate-x-1/2 animate-bounce">
+                    <div className="absolute bottom-16 md:bottom-20 left-1/2 transform -translate-x-1/2 animate-bounce">
                         <FaChevronDown className="text-zinc-100 text-2xl md:text-4xl opacity-90" />
                     </div>
                 </div>

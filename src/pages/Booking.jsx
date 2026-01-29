@@ -8,7 +8,7 @@ export default function Booking({ onNavigate }) {
       {/* Background Decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 right-20 text-9xl rotate-12 animate-pulse">
-          <GiRazor className="text-zinc-700" />
+            <img src="/tatto-bg-1.png" alt="" />
         </div>
       </div>
 
