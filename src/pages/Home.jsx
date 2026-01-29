@@ -42,7 +42,7 @@ export default function Home({ onNavigate }) {
 
                     <button
                         onClick={onNavigate}
-                        className="group relative mt-8 md:mt-16 px-8 sm:px-10 md:px-12 py-4 md:py-5 text-base md:text-lg font-semibold tracking-wider border-2 border-zinc-100 text-zinc-100 overflow-hidden transition-all duration-500 hover:scale-105"
+                        className="group relative mt-8 md:mt-16 px-8 sm:px-10 md:px-12 py-4 md:py-5 text-base md:text-lg font-semibold tracking-wider border-2 border-zinc-100 text-zinc-100 overflow-hidden transition-all duration-500 hover:scale-105 cursor-pointer"
                     >
                         <span className="relative z-10 group-hover:text-zinc-950 transition-colors duration-500">
                             RESERVAR CITA
@@ -200,7 +200,7 @@ export default function Home({ onNavigate }) {
 
                     <button
                         onClick={onNavigate}
-                        className="group relative px-10 sm:px-12 md:px-16 py-4 sm:py-5 md:py-6 text-base sm:text-lg md:text-xl font-semibold tracking-widest border-2 border-zinc-100 text-zinc-100 overflow-hidden transition-all duration-500 hover:scale-105"
+                        className="group cursor-pointer relative px-10 sm:px-12 md:px-16 py-4 sm:py-5 md:py-6 text-base sm:text-lg md:text-xl font-semibold tracking-widest border-2 border-zinc-100 text-zinc-100 overflow-hidden transition-all duration-500 hover:scale-105"
                     >
                         <span className="relative z-10 group-hover:text-zinc-950 transition-colors duration-500">
                             RESERVAR AHORA
